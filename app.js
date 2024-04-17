@@ -8,18 +8,13 @@
         })
     });
     
-    
-
     })();
 
 
 //store and change color theme
 document.querySelector(".theme-btn").addEventListener("click", () => {
-    
     mode = localStorage.getItem("mode");
-    console.log(mode);
     mode === "dark" ? light() : dark();
-
 });
 
 const light = () => {
@@ -32,7 +27,7 @@ const dark = () => {
     localStorage.setItem("mode", "dark");
 };
 
-let mode = localStorage.getItem("mode");
+    let mode = localStorage.getItem("mode");
     if (mode === "dark") 
         dark();
     else 
