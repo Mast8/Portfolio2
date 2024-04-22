@@ -17,6 +17,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-blue: #1e7bb1;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -124,6 +125,10 @@ section {
   color: var(--color-white);
 }
 
+.controls .control:hover, .theme-btn:hover {
+  background-color: var(--color-blue);
+}
+
 .theme-btn {
   top: 5%;
   right: 3%;
@@ -139,9 +144,11 @@ section {
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.1s ease-in-out;
 }
+
 .theme-btn:active {
   transform: translateY(-3px);
 }
+
 .theme-btn i {
   font-size: 1.4rem;
   color: var(--color-grey-2);
@@ -362,10 +369,25 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .portfolios .portfolio-item .hover-items h3 {
+  text-align: center;
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
+
+.skills-div {
+  display: inline-block;
+  justify-content: center;
+}
+
+.skills {
+  margin: 5px;
+  padding: 5px;
+  background-color: var(--color-primary);
+  border-radius: 10px;
+  
+}
+
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
   justify-content: center;
