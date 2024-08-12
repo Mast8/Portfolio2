@@ -375,9 +375,9 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.skills-div {
-  display: inline-block;
-  justify-content: center;
+.skill-div {
+  display: flex;
+  padding: 15px;
 }
 
 .skills {
