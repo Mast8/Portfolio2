@@ -421,8 +421,12 @@ section {
   opacity: 1;
   transform: scale(1);
 }
-
-
+.portfolios,
+.about-container,
+.header-content, 
+.contact-container {
+  margin-right: 3em;
+}
 
 .contact-content-con {
   display: flex;
@@ -599,6 +603,13 @@ section {
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
+  }
+
+  .portfolios,
+  .about-container,
+  .header-content, 
+  .contact-container {
+    margin-right: 0;
   }
 
   .theme-btn {
@@ -863,4 +874,3 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
